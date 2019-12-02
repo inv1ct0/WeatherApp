@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="city">Moscow</string>
+    <string name="time">19:40</string>
+    <string name="date">02 / 11 / 2019</string>
+    <string name="temperature">-5° C</string>
+
+    <string-array name="cities">
+        <item>Moscow</item>
+        <item>Saint-Petersburg</item>
+        <item>Ekaterinburg</item>
+    </string-array>
+</resources>

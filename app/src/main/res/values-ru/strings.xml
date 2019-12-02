@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Погодное приложение</string>
+    <string name="city">Москва</string>
+    <string name="time">19:40</string>
+    <string name="date">02 / 11 / 2019</string>
+    <string name="temperature">-5° C</string>
+
+    <string-array name="cities">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Екатеринбург</item>
+    </string-array>
+</resources>
