@@ -14,7 +14,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="32dp"
-        android:src="@drawable/moscow"/>
+        android:src="@drawable/moscow"
+        tools:ignore="ContentDescription" />
 
     <Spinner
         android:id="@+id/spinner"
@@ -28,44 +29,6 @@
         android:textAlignment="textEnd"
         android:entries="@array/cities">
     </Spinner>
-
-    <TextView
-        android:id="@+id/temperatureNow"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="168dp"
-        android:layout_marginEnd="16dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:gravity="center"
-        android:textSize="48sp"
-        android:text="@string/temperature" />
-
-    <TextView
-        android:id="@+id/humidityNow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/humidity"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="16dp"
-        android:layout_toStartOf="@+id/humidity"
-        android:gravity="center"
-        android:text="@string/humidityNow"
-        android:textSize="22sp"
-        tools:ignore="RelativeOverlap" />
-
-    <TextView
-        android:id="@+id/overcastNow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/overcast"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="16dp"
-        android:layout_toStartOf="@+id/overcast"
-        android:gravity="center"
-        android:text="@string/overcastNow"
-        android:textSize="22sp" />
 
     <TextView
         android:id="@+id/timeNow"
@@ -91,24 +54,15 @@
         android:textSize="16sp"
         android:text="@string/date" />
 
-    <CheckBox
-        android:id="@+id/humidity"
-        android:layout_width="120dp"
+    <Button
+        android:id="@+id/showWeather"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/temperatureNow"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="16dp"
-        android:layout_toStartOf="@+id/temperatureNow"
-        android:text="@string/humidity" />
-
-    <CheckBox
-        android:id="@+id/overcast"
-        android:layout_width="120dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/humidity"
+        android:layout_below="@+id/spinner"
         android:layout_marginTop="16dp"
+        android:layout_alignParentEnd="true"
         android:layout_marginEnd="16dp"
-        android:layout_toStartOf="@+id/temperatureNow"
-        android:text="@string/overcast" />
+        android:textSize="16sp"
+        android:text="@string/show_weather" />
 
 </RelativeLayout>

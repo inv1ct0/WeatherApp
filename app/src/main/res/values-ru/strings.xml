@@ -8,6 +8,9 @@
     <string name="overcast">Облачность</string>
     <string name="overcastNow">легкая</string>
     <string name="humidityNow">40%</string>
+    <string name="show_weather">показать погоду</string>
+    <string name="about_city">О городе</string>
+    <string name="wikipedia">https://ru.wikipedia.org/wiki/</string>
 
     <string-array name="cities">
         <item>Москва</item>

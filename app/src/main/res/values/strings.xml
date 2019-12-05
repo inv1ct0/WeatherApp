@@ -8,10 +8,13 @@
     <string name="overcast">Overcast</string>
     <string name="overcastNow">small</string>
     <string name="humidityNow">40%</string>
+    <string name="show_weather">show weather</string>
+    <string name="about_city">About city</string>
+    <string name="wikipedia">https://wikipedia.org/wiki/</string>
 
     <string-array name="cities">
         <item>Moscow</item>
-        <item>Saint-Petersburg</item>
-        <item>Ekaterinburg</item>
+        <item>Saint_Petersburg</item>
+        <item>Yekaterinburg</item>
     </string-array>
 </resources>
